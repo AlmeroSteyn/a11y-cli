@@ -1,0 +1,6 @@
+<div>
+  <input [ngFormControl]="term">
+  <ul>
+    <li *ngFor="let item of items | async">{{item}}</li>
+  </ul>
+</div>
